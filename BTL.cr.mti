@@ -1,0 +1,364 @@
+{D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/MUL_2021.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/MUL_2021.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module MUL_2021
+-- Compiling module MUL_2021_TB
+
+Top level modules:
+	MUL_2021_TB
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/Full_Subtractor_8.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/Full_Subtractor_8.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module FULL_SUBTRACTOR
+-- Compiling module FULL_SUBTRACTOR_8BITS
+-- Compiling module FULL_SUBTRACTOR_32BITS
+-- Compiling module FULL_SUBTRACTOR_32BITS_TB
+-- Compiling module FULL_SUBTRACTOR_9BITS
+-- Compiling module FULL_SUBTRACTOR_24BITS
+-- Compiling module FULL_SUBTRACTOR_48BITS
+-- Compiling module FULL_SUBTRACTOR_25BITS
+
+Top level modules:
+	FULL_SUBTRACTOR_32BITS
+	FULL_SUBTRACTOR_32BITS_TB
+	FULL_SUBTRACTOR_9BITS
+	FULL_SUBTRACTOR_48BITS
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/SHIFT_RIGHT.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/SHIFT_RIGHT.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module SHIFTER_RIGHT_16BITS
+-- Compiling module SHIFTER_RIGHT_24BITS
+-- Compiling module SHIFTER_RIGHT_32BITS
+-- Compiling module SHIFTER_RIGHT_48BITS
+-- Compiling module SHIFTER_RIGHT_64BITS
+-- Compiling module SHIFTER_RIGHT_BITS_TB
+
+Top level modules:
+	SHIFTER_RIGHT_16BITS
+	SHIFTER_RIGHT_24BITS
+	SHIFTER_RIGHT_32BITS
+	SHIFTER_RIGHT_64BITS
+	SHIFTER_RIGHT_BITS_TB
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/MODULE_MUL.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/MODULE_MUL.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module DECOMPOSE_MUL
+-- Compiling module MUL_NORMALISE
+-- Compiling module CHECK_MUL
+-- Compiling module EXPONENT_MUL
+-- Compiling module EXPONENT_MUL_TB
+-- Compiling module FLOW_MUL
+-- Compiling module RES_MUL
+
+Top level modules:
+	DECOMPOSE_MUL
+	MUL_NORMALISE
+	CHECK_MUL
+	EXPONENT_MUL_TB
+	FLOW_MUL
+	RES_MUL
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/NEW_RAPH.v} {0 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/NEW_RAPH.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module NORMARLISE_DIV
+** Error: (vlog-13069) D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/NEW_RAPH.v(7): near "'b": syntax error, unexpected BASE, expecting '('.
+
+} {4.0 5.0} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/Mux2x.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/Mux2x.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module mux2X1
+-- Compiling module mux2X2
+-- Compiling module mux2X4
+-- Compiling module mux2X8
+-- Compiling module mux2X16
+-- Compiling module mux2X24
+-- Compiling module mux2X32
+-- Compiling module mux2X48
+-- Compiling module mux2X64
+-- Compiling module mux2X48_tb
+-- Compiling module mux2X25
+
+Top level modules:
+	mux2X24
+	mux2X48
+	mux2X64
+	mux2X48_tb
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/SIN_MACLAURIN.v} {0 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/SIN_MACLAURIN.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module SINX
+** Error: D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/SIN_MACLAURIN.v(2): In, out, or inout does not appear in port list: in.
+** Error: D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/SIN_MACLAURIN.v(3): In, out, or inout does not appear in port list: out.
+
+} {4.0 6.0} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/MULTIPLICATION.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/MULTIPLICATION.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module AND_24_48
+-- Compiling module AND_32_64
+-- Compiling module AND_24_48_TB
+-- Compiling module MULTIPLY
+-- Compiling module MULTIPLY_TB
+-- Compiling module MULTIPLY_32_BITS
+
+Top level modules:
+	AND_24_48_TB
+	MULTIPLY_TB
+	MULTIPLY_32_BITS
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/DIV_NEWTON_RAPHSON.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/DIV_NEWTON_RAPHSON.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module ITERATION
+-- Compiling module DIV_ITE
+-- Compiling module DIV_ITE_TB
+
+Top level modules:
+	DIV_ITE_TB
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/CSA_ADD.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/CSA_ADD.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module FULL_ADDER
+-- Compiling module FULL_ADDER_4BITS
+-- Compiling module mux2X1
+-- Compiling module mux2X2
+-- Compiling module mux2X4
+-- Compiling module mux2X8
+-- Compiling module mux2X16
+-- Compiling module mux2X32
+-- Compiling module CSA_4BITS
+-- Compiling module CSA_8BITS
+-- Compiling module CSA_16BITS
+-- Compiling module CSA_32BITS
+-- Compiling module CSA_TB
+-- Compiling module mux2X64
+
+Top level modules:
+	FULL_ADDER_4BITS
+	CSA_TB
+	mux2X64
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/MODULE_DIV.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/MODULE_DIV.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module DECOMPOSE_DIV
+-- Compiling module DECOMPOSE_DIV_TB
+-- Compiling module CHECK_DIV
+-- Compiling module CHECK_DIV_TB
+-- Compiling module EXPONENT_DIV
+-- Compiling module EXPONENT_DIV_2
+-- Compiling module EXPONENT_DIV_TB
+-- Compiling module FLOW_DIV
+-- Compiling module FLOW_DIV_TB
+-- Compiling module RES_DIV
+-- Compiling module RES_DIV_2
+
+Top level modules:
+	DECOMPOSE_DIV_TB
+	CHECK_DIV_TB
+	EXPONENT_DIV_2
+	EXPONENT_DIV_TB
+	FLOW_DIV_TB
+	RES_DIV
+	RES_DIV_2
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/COMPARATOR.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/COMPARATOR.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module COMPARATOR
+-- Compiling module COMPARATOR_4BITS
+-- Compiling module COMPARATOR_8BITS
+-- Compiling module COMPARATOR_32BITS
+-- Compiling module COMPARATOR_16BITS
+-- Compiling module COMPARATOR_24BITS
+-- Compiling module COMPARATOR_TB
+-- Compiling module COMPARATOR_25BITS
+-- Compiling module COMPARATOR_9BITS
+
+Top level modules:
+	COMPARATOR_32BITS
+	COMPARATOR_24BITS
+	COMPARATOR_TB
+	COMPARATOR_9BITS
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/SQUARE.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/SQUARE.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module COMPARE_WITH_1
+-- Compiling module COMPARE_WITH_1_TB
+-- Compiling module INVERSE
+-- Compiling module INVERSE_TB
+-- Compiling module NATURAL_LOGARIT
+-- Compiling module NATURAL_LOGARIT_TB
+-- Compiling module INVERT_1
+-- Compiling module INVERT_1_TB
+-- Compiling module NATURAL_EXPONENT
+-- Compiling module NATURAL_EXPONENT_TB
+-- Compiling module ERROR_CHECKING
+-- Compiling module ERROR_CHECKING_TB
+-- Compiling module CHECKING_NAN
+-- Compiling module CHECKING_NAN_TB
+-- Compiling module ZERO_CHECKING
+-- Compiling module ZERO_CHECKING_TB
+-- Compiling module INFINITIY_CHECKING
+-- Compiling module INFINITIY_CHECKING_TB
+-- Compiling module COMPOSE
+-- Compiling module COMPOSE_TB
+-- Compiling module SQUARE
+-- Compiling module SQUARE_TB
+
+Top level modules:
+	COMPARE_WITH_1_TB
+	INVERSE_TB
+	NATURAL_LOGARIT_TB
+	INVERT_1_TB
+	NATURAL_EXPONENT_TB
+	ERROR_CHECKING_TB
+	CHECKING_NAN_TB
+	ZERO_CHECKING_TB
+	INFINITIY_CHECKING_TB
+	COMPOSE_TB
+	SQUARE_TB
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/Full_Adder_8.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/Full_Adder_8.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module FULL_ADDER
+-- Compiling module FULL_ADDER_8BITS
+-- Compiling module FULL_ADDER_32BITS
+-- Compiling module FULL_ADDER_48BITS
+-- Compiling module FULL_ADDER_TB
+-- Compiling module FULL_ADDER_24BITS
+-- Compiling module FULL_ADDER_9BITS
+-- Compiling module FULL_ADDER_4BITS
+-- Compiling module FULL_ADDER_64BITS
+
+Top level modules:
+	FULL_ADDER_48BITS
+	FULL_ADDER_TB
+	FULL_ADDER_24BITS
+	FULL_ADDER_9BITS
+	FULL_ADDER_4BITS
+	FULL_ADDER_64BITS
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/COMPESATE2_32BITS.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/COMPESATE2_32BITS.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module COMPENSATE2_8BITS
+-- Compiling module COMPENSATE2_32BITS
+-- Compiling module COMPENSATE2_24BITS
+-- Compiling module COMPENSATE2_32BITS_TB
+
+Top level modules:
+	COMPENSATE2_8BITS
+	COMPENSATE2_24BITS
+	COMPENSATE2_32BITS_TB
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/PRIORITY_ENCODER_8BITS.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/PRIORITY_ENCODER_8BITS.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module PRIORITY_ENCODER_8BITS
+-- Compiling module PRIORITY_ENCODER_32BITS
+-- Compiling module PRIORITY_ENCODER_32BITS_TB
+-- Compiling module PRIORITY_ENCODER_32BITS_SIG
+-- Compiling module PRIORITY_ENCODER_32BITS_SIG_TB
+
+Top level modules:
+	PRIORITY_ENCODER_32BITS_TB
+	PRIORITY_ENCODER_32BITS_SIG_TB
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/BOOTH_ALGORITHM.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/BOOTH_ALGORITHM.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module CHECK_LSB_BOOTH
+-- Compiling module ADD_SUB_BOOTH
+-- Compiling module BOOTH_ALGORITHM
+-- Compiling module CHECK_LSB_BOOTH_48BITS
+-- Compiling module ADD_SUB_BOOTH_48BITS
+-- Compiling module BOOTH_ALGORITHM_48BITS
+-- Compiling module BOOTH_ALGORITHM_TB
+
+Top level modules:
+	BOOTH_ALGORITHM_48BITS
+	BOOTH_ALGORITHM_TB
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/DIVISION.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/DIVISION.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module SHIFT_LEFT_SUB_DIV
+-- Compiling module SHIFT_LEFT_SUB_DIV_TB
+-- Compiling module DIVISON
+-- Compiling module DIVISON_TB
+
+Top level modules:
+	SHIFT_LEFT_SUB_DIV_TB
+	DIVISON_TB
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/ADD_SUB_2021.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/ADD_SUB_2021.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module ADD_SUB_2021
+-- Compiling module ADD_SUB_2021_TB
+
+Top level modules:
+	ADD_SUB_2021_TB
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/MODULE_ADD_SUB.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/MODULE_ADD_SUB.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module DECOMPOSE_AS
+-- Compiling module DECOMPOSE_AS_TB
+-- Compiling module EQUALIZING_AS
+-- Compiling module EQUALIZING_AS_TB
+-- Compiling module CONVERTER_1_AS
+-- Compiling module CONVERTER_1_AS_TB
+-- Compiling module ADD_BLOCK
+-- Compiling module ADD_BLOCK_TB
+-- Compiling module SUB_BLOCK
+-- Compiling module SUB_BLOCK_TB
+-- Compiling module OUTPUT_AS
+-- Compiling module OUTPUT_AS_TB
+
+Top level modules:
+	DECOMPOSE_AS_TB
+	EQUALIZING_AS_TB
+	CONVERTER_1_AS_TB
+	ADD_BLOCK_TB
+	SUB_BLOCK_TB
+	OUTPUT_AS_TB
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/DIV_2021.v} {2 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/DIV_2021.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module DIV_2021
+-- Compiling module DIV_2021_TB
+** Warning: D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/DIV_2021.v(68): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	DIV_2021_TB
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/SHIFT_LEFT.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/SHIFT_LEFT.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module SHIFTER_LEFT_16BITS
+-- Compiling module SHIFTER_LEFT_24BITS
+-- Compiling module SHIFTER_LEFT_32BITS
+-- Compiling module SHIFTER_LEFT_48BITS
+-- Compiling module SHIFTER_LEFT_64BITS
+-- Compiling module SHIFTER_LEFT_25BITS
+-- Compiling module SHIFTER_LEFT_BITS_TB
+
+Top level modules:
+	SHIFTER_LEFT_16BITS
+	SHIFTER_LEFT_24BITS
+	SHIFTER_LEFT_32BITS
+	SHIFTER_LEFT_48BITS
+	SHIFTER_LEFT_64BITS
+	SHIFTER_LEFT_BITS_TB
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/COS_MACLAURIN.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/COS_MACLAURIN.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module COSX
+-- Compiling module COSX_TB
+
+Top level modules:
+	COSX_TB
+
+} {} {}} {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/NOT.v} {1 {vlog -work work -vopt -stats=none {D:/THI.PHAMBK2018@HCMUT.EDU.VN/EE3083 - KI THUAT SO NANG CAO/BAO CAO BAI TAP LON/BTL/NOT.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module NOT_1BIT
+-- Compiling module NOT_4BITS
+-- Compiling module NOT_8BITS
+-- Compiling module NOT_16BITS
+-- Compiling module NOT_24BITS
+-- Compiling module NOT_32BITS
+
+Top level modules:
+	NOT_1BIT
+	NOT_24BITS
+	NOT_32BITS
+
+} {} {}}

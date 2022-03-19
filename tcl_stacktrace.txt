@@ -1,0 +1,34 @@
+Sat Jun 12 19:28:35 SE Asia Standard Time 2021
+Trace back: Library D:/NEW/KTSNC/BAO CAO BAI TAP LON/BTL/work not found
+    while executing
+"::GetGlobalLibraryProperty $lib -vendor"
+    (procedure "GetProps" line 6)
+    invoked from within
+"GetProps"
+    (procedure "OpenReportPage" line 6)
+    invoked from within
+"OpenReportPage"
+    ("start" arm line 3)
+    invoked from within
+"switch $d(wizard_mode) {
+      start -
+      start_dep {
+         if { ![CloseStartPage] } return
+         OpenReportPage
+      }
+      report { 
+    ..."
+    (procedure "LibImport::NextPage" line 4)
+    invoked from within
+"LibImport::NextPage"
+    invoked from within
+".dlg_lib_import.bot_row.aux_f.next invoke"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke]"
+    (procedure "tk::ButtonUp" line 24)
+    invoked from within
+"tk::ButtonUp .dlg_lib_import.bot_row.aux_f.next"
+    (command bound to event)
+  <2: ::tkerror {Library D:/NEW/KTSNC/BAO CAO BAI TAP LON/BTL/work not found}
+  <1: ::bgerror {Library D:/NEW/KTSNC/BAO CAO BAI TAP LON/BTL/work not found}

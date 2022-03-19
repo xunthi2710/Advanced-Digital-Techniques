@@ -1,0 +1,59 @@
+//-------------------------------------------------------------------------------------------------------
+module SHIFT_LEFT_SUB_DIV (in_a, in_b, out, divident);
+	input [24:0] in_a, in_b;
+	output out;
+	output [24:0] divident;
+	wire b, eq, gt, lt;
+	wire [24:0] net1, net2;
+
+SHIFTER_LEFT_25BITS entity_1 (in_a, 1'b1, net1);
+COMPARATOR_25BITS entity_2 (net1, in_b, eq, gt, lt);
+FULL_SUBTRACTOR_25BITS entity_3 (net1, in_b, 1'b0, net2, b);
+	assign out = lt ? 1'b0 : 1'b1;
+	assign divident = lt ? net1 : net2;
+endmodule
+//-------------------------------------------------------------------------------------------------------
+module DIVISON (in_a, in_b, out);
+	input [23:0] in_a, in_b;
+	output [23:0] out;
+	wire [24:0] divident, divisor;
+	wire b, eq, gt, lt;
+	wire [24:0] net [1:23];
+	wire [24:0] net1;
+	genvar i;
+	assign divident = {1'b0,in_a};
+	assign divisor = {1'b0,in_b};
+	
+COMPARATOR_25BITS entity_4 (divident, divisor, eq, gt, lt);
+FULL_SUBTRACTOR_25BITS entity_5 (divident, divisor, 1'b0, net1);
+	assign out[23] = lt ? 1'b0 : 1'b1;
+	assign net[23] = lt ? divident : net1;
+	generate
+		for (i = 22; i <= 1; i = i - 1) 
+			begin
+				SHIFT_LEFT_SUB_DIV entity_6 (net[i], divisor, out[i], net[i-1]);
+			end
+	endgenerate
+endmodule
+//-------------------------------------------------------------------------------------------------------
+module DIVISON_TB;
+	wire [23:0] in_a, in_b;
+	reg [23:0] out;
+
+DIVISON dut (in_a, in_b, out);
+	initial begin
+		#10
+		in_a = 24'b101101101100111001010001;
+		in_b = 24'b100110100111001100101100;
+		#10
+		in_a = 24'b111111100001000000000000;
+		in_b = 24'b100001111000000000000000;
+		#10
+		in_a = 24'b110010000110100010011000;
+		in_b = 24'b100001111000011010000010;
+		#10
+		in_a = 24'b100110101111111110101111;
+		in_b = 24'b101011010110101010111000;
+	end
+endmodule
+//-------------------------------------------------------------------------------------------------------

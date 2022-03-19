@@ -1,0 +1,1 @@
+Completed      100000 tests,          10 passes and           0 fails.
